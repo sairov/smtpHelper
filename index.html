@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form id="contacto" class="contacto" name="formulariocontacto">
+        <label for="nombre" class="identificacion">Nombre:</label>
+        <input type="text" placeholder="Ingrese aquí su nombre" class="formulario" id="nombre" name="nombre" autofocus required>
+        <label for="apellido" class="identificacion">Apellido:</label>
+        <input type="text" placeholder="Ingrese aquí su apellido" class="formulario" id="apellido" name="apellido" required>
+        <label for="mail" class="identificacion">E-Mail:</label>
+        <input type="email" placeholder="Ingrese aquí su E-Mail" class="formulario" id="mail" name="mail" required>
+        <label for="mensaje" class="identificacion">Mensaje:</label>
+        <textarea placeholder="Ingrese aquí su mensaje" class="mensaje" name="mensaje" id="mensaje"></textarea>
+        <input type="submit" class="boton" value="Enviar Mensaje">
+    </form>
+
+<script src="smtp.js"></script>
+<script src="sendMail.js"></script>    
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
