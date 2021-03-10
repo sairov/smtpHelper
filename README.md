@@ -15,6 +15,8 @@ Configuración básica para envio de correo mendiante libreria SMTP.js
 
 Como fuera comentado en las ventajas, se recomienda configurar las claves de acceso generando un TOKEN específico a fin de no exponer la información personal del correo remitente.
 
+En cuentas de correos bajo dominio personalizado o de proveedores como hotmail o gmail es posible que haya que realizar configuraciones previas para conceder los permisos de uso. 
+
 Adicionalmente, se puede guardar el Token en una variable de entorno y de esta manera cubrir las brechas de seguridad sobre la exposición de la información en su totalidad.
 
 Finalmente, esta libreria no evitar tener que realizar las validaciones de formulario correspondientes, lo cual es altamente recomendado sobre todo si los datos recibidos seran guardados en una Base de Datos.
